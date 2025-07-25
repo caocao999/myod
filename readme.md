@@ -20,13 +20,6 @@
    git clone https://github.com/ユーザー名/リポジトリ名.git
    cd リポジトリ名
 
-
-プロジェクト名/
-├── src/
-│   └── main.rs
-├── Cargo.toml
-└── README.md
-
 📄 ライセンス
 このプロジェクトは MIT ライセンスのもとで公開されています。
 
