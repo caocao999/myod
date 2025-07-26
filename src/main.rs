@@ -85,3 +85,14 @@ fn run(file_path: &str) -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn test_run(){
+        const FILE_PATH:&str = "./src/main.rs";
+        let _ = run(FILE_PATH);
+    }
+}
